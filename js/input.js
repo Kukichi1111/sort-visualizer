@@ -3,7 +3,7 @@ import { mulberry32, randInt } from './rng.js';
 export const INPUT_KINDS = [
   { id: 'random', label: 'ランダム' },
   { id: 'sorted', label: '昇順' },
-  { id: 'reversed', label: '逆順' },
+  { id: 'reversed', label: '降順' },
   { id: 'nearly', label: 'ほぼ整列済み' },
   { id: 'few', label: '重複が多い' },
 ];
